@@ -1,3 +1,9 @@
+<?php 
+// Allow the config
+define('__CONFIG__',true);
+
+require_once "inc/config.php";?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,13 +31,13 @@
     <div class="uk-margin">
         <button class="uk-button-default" type="submit">Log In</button>
     </div>
-
-
 </form>
         </div>            
     </div>
 
-
+<?php  
+require_once "footer.php";
+?>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.6/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.6/dist/js/uikit-icons.min.js"></script>
 </body>
